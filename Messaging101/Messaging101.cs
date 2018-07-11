@@ -77,7 +77,7 @@ namespace Messaging101
 
 
                 checkItemOutPipeline.Handle(new CheckItemOut(10));
-
+                //or
                 var bucket = new InventoryBucket();
                 bucket.CheckItemIn(100);
                 bucket.CheckItemOut(10);
